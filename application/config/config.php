@@ -24,8 +24,8 @@ date_default_timezone_set('Asia/Jakarta'); //Set Timezone to Jakarta
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/web/';
-// $config['base_url'] = 'https://osm.kanggara.net/';
+// $config['base_url'] = 'http://localhost/osm/';
+$config['base_url'] = 'https://osm.kanggara.net/';
 
 /*
 |--------------------------------------------------------------------------

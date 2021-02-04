@@ -12,7 +12,7 @@
           <input type="text" readonly class="form-control-plaintext" id="warning_label" value="Sisa Jarak Tempuh">
         </div>
         <div class="form-group mx-sm-1 mb-2">
-          <input type="text" class="form-control" readonly id="warning" name="warning" value="<?= round((7664234 - $sisa['total']) / 3650); ?>">
+          <input type="text" class="form-control" readonly id="warning" name="warning" value="<?= round(((6774194 - $sisa['total']) * (31 / 100000)), 2); ?>">
         </div>
         <div class="form-group mx-sm-1 mb-2">
           <input type="text" class="form-control" readonly placeholder="Kilo Meters">
@@ -24,7 +24,7 @@
           <input type="text" readonly class="form-control-plaintext" id="limit_label" value="Sisa Waktu Pemakaian">
         </div>
         <div class="form-group mx-sm-1 mb-2">
-          <input type="text" class="form-control" readonly id="dlimit" name="dlimit" value="<?= round((($harimin['time'] + 5184000) - $hari['time']) / 86400); ?>">
+          <input type="text" class="form-control" readonly id="dlimit" name="dlimit" value="<?= round(($harimin['time'] + 5184000 - $hari['time']) / 86400); ?>">
         </div>
         <div class="form-group mx-sm-1 mb-2">
           <input type="text" class="form-control" readonly placeholder="Hari">
