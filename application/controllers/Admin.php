@@ -153,8 +153,9 @@ class Admin extends CI_Controller
     );
 
     $diameter = ($tinggi * 0.2) + ($velg * 2.54);
-    $keliling = round($diameter * 3.14);
-    $counter = round(100000 / ($keliling / $spoke));
+
+    $keliling = round($diameter * 22 / 7);
+    $counter = round(100000 / (($keliling - 7) / $spoke));
     $dcounter = array(
       'counter' => $counter
     );

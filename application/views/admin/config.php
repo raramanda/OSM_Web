@@ -83,8 +83,8 @@
         <button hidden type="submit" class="btn btn-warning mb-2">Update</button>
         <!-- Update Frequency -->
         <div class="form-group mb-2">
-          <label for="warning_label" class="sr-only">Update Frequency Per</label>
-          <input type="text" disabled class="form-control-plaintext" id="update_label" value="Update Frequency Per">
+          <label for="warning_label" class="sr-only">Jumlah Spoke</label>
+          <input type="text" disabled class="form-control-plaintext" id="update_label" value="Jumlah Spoke">
         </div>
         <div class="form-group mx-sm-1 mb-2">
           <input type="text" class="form-control" id="spoke" name="spoke" value="<?= round($ban['spoke']); ?>">
